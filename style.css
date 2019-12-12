@@ -1,0 +1,128 @@
+body{
+  background-image: url("icebackground.jpg");
+  height: 640mm;
+  width: 360mm;
+  }
+h1{
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  color: rgba(17, 68, 151, 1);
+  font-family:garamond;
+  padding: 5mm;
+}
+h2{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:garamond;
+  padding: 5mm;
+  background-color: rgba(11,94,21,0.7);
+  border-radius: 50px;
+}
+p{
+  font-family:garamond;
+  font-size: 50px;
+  margin: 5mm;
+  padding: 5mm;
+  border-radius: 20px;
+  background-color: rgba(17, 68, 151, 0.5);
+  color: white;
+}
+a{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family:garamond;
+  padding: 5mm;
+  background-color: rgba(11,94,21,0.7);
+  border-radius: 50px;
+}
+
+.frame{
+position: absolute;
+display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height:750mm;
+  width: 360mm;
+  margin: 3mm;
+}
+
+.hiddenframe{
+position: absolute;
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height:750mm;
+    width: 360mm;
+    margin: 5mm;
+  }
+
+
+  .hidden{
+    padding: 5mm;
+    margin: 5mm 5mm 15mm 5mm;
+    display: flex;
+    align-items: center;
+    outline-width: medium;
+    width: 68mm;
+    align-items: stretch;
+    z-index: -1;
+  }
+
+container{
+  padding: 5mm;
+  margin: 3mm;
+  display: flex;
+  align-items: center;
+  outline-width: medium;
+  font-family: garamond;
+  font-size: 90px;
+  font-weight: bold;
+  width: 68mm;
+  align-items: stretch;
+}
+.door1{
+  background-color: rgba(255,255,255,1);
+  color:black;
+  height:100mm;
+}
+.door2{
+  background-color: rgba(123,2,2,1);
+  color: white;
+  height:110mm;
+}
+.door3{
+  background-color: rgba(48,133,5,1);
+  color: white;
+  height:100mm;
+}
+.door4{
+  background-color: rgba(212,22,22,1);
+  color: white;
+  height:70mm;
+}
+.door5{
+  background-color: rgba(23,51,5,1);
+  color: white;
+  height:60mm;
+}
+
+#p6{
+  margin-bottom: 10mm;
+}
+
+#p12{
+  margin-top: 20mm;
+}
+
+#p21{
+  margin-top: 0mm;
+}
+
+#p23{
+  margin-top: 12mm;
+}
